@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Duck generator</h1>
+    <div class="container">
+    <h2 class="name">Name: <input placeholder="Enter duck name" class="nameInput" onkeydown="return /[a-z]/i.test(event.key)"></h2>
+    <h2 class="color">Color: <input placeholder="Enter duck color" class="colorInput" onkeydown="return /[a-z]/i.test(event.key)"></h2>
+    <h2 class="age" >Age: <input placeholder="Enter duck age" class="ageInput" type="number"></h2>
+    <h2 class="weight">Weight: <input placeholder="Enter duck weight" class="weightInput" type="number"></h2>
+    <h2 class="picture">Picture: <input placeholder="Enter duck picture" class="pictureInput" onkeydown="return /[a-z]/i.test(event.key)"></h2>
+    <button onclick="CreateDuck()" class="createBtn">Create</button>
+    <button onclick="ShowFunc()" class="showBtn" disabled>Show</button>
+    <button onclick="quackFunc()" class="quackBtn" disabled>Quack</button>
+</div>
+
+</body>
+</html>

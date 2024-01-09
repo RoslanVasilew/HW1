@@ -1,0 +1,17 @@
+body{
+    text-align: center;
+}
+
+.container{
+    border:2px black solid;
+    border-radius: 15px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+}
+
+img > .container{
+    width: auto;
+    height: auto;
+}

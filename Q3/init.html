@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Please Fill All The Fields</h1>
+        <h2>Country: <input class="countryInput" onkeydown="return /[a-z]/i.test(event.key)"></h2>
+        <h2>Hour: <input class="hourInput" type="number"></h2>
+        <h2>Minutes: <input class="minutesInput" type="number"></h2>
+        <h2>Seconds: <input class="secondsInput"type="number"></h2><br>
+        <button class="sendBtn" , onclick="SendFunc()">Send</button>
+    </div>
+</body>
+</html>
